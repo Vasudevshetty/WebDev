@@ -1,0 +1,33 @@
+*{
+    padding : 0;
+    margin : 0;
+    color: white;
+    text-decoration: none;
+}
+
+header, footer{
+    height : 60px;
+    background-color: #0f1111;
+}
+
+footer{
+    text-align: center;
+}
+
+#logo{
+    color :#f08804;
+    font-size: 25px;
+}
+
+button{
+    background-color : #f08804;
+}
+
+a{
+    margin-right : 200px;
+    padding-top : 10px;
+}
+
+main{
+    height : 650px;
+}

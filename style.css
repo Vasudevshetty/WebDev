@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size : xx-large;
+    padding : 2%;
+    background-color : black;
+}
+
+a{
+    text-align: left;
+    padding : 1%;
+    background-color: peachpuff;
+    margin: 0.5%;
+}
+
+a:hover{
+    color : blue;
+    text-decoration: dashed;
+}
+
+p{
+    padding: 3%;
+}
