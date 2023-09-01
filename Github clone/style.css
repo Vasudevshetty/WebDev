@@ -1,0 +1,96 @@
+*{
+    font-family: Arial;
+    margin : 0px;
+    border: border-box;
+}
+
+.top{
+    display: flex;
+    height : 48px;
+    gap: 12px;
+    padding : 16px;
+    background-color: black;
+    color: #7d8590;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.border{
+    border :1px solid #7d8590;
+    border-radius: 6px;
+}
+
+.top-bar{
+    display: block;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+
+.top-logo{
+    height: 32px;
+    width: 32px;
+    margin-left: 8px;
+    font-size: 32px;
+    color: white;
+}
+
+.top-dash{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.top-none{
+    width: 50%;
+}
+
+.top-search{
+    height: 18px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    padding: 9px;
+    width: 300px;
+}
+
+select, input{
+    background-color: black;
+    color: #7d8590;
+    border: transparent;
+}
+
+.top-cadd{
+    height: 32px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-pullrequests, .top-issues{
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-profile{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(profile.webp);
+    background-size:150%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
