@@ -39,35 +39,87 @@
             </div>
         </div>
     </header>
-    <main>
-        <div class="sidebar">
-            <div class="sidebar-repo">
-                <span class="repo-top">
-                    Top Repositories
-                </span>
-                <span class="repo-none"></span>
-                <span class="repo-sym">
-                    <i class="fa-solid fa-book-bookmark"></i>
-                    New
-                </span>
-            </div>
-            <div class="repo-search border">
-                <input type="text" placeholder="Find a repository...">
-            </div>
-            <div class="sidebar-repo-list">
+    <div class="application-main">
+        <aside class = "sidebar">
+                <div class="sidebar-repo font">
+                    <span class ="repo-top">
+                        Top Repositories
+                    </span>
+                    <span class="repo-none"></span>
+                    <span class="repo-sym">
+                        <i class="fa-solid fa-book-bookmark"></i>
+                        New
+                    </span>
+                </div>
+                <input class="repo-search border" type="text" placeholder="Find a repository...">
+            <div class="sidebar-repo-list font">
                 Repositories yet to create
             </div>
-            <span class="recent-top">
+            <span class="recent-top font">
                 Recent Activity
             </span>
             <div class="sidebar-recentactivity border">
                 <p>When you take actions across Github<p>
                     <p style="font-size: 0.3em;">&ThinSpace;</p>
-                <p>we'll provide links to that activity here.</p>
+                    <p>we'll provide links to that activity here.</p>
             </div>
             <div class="sidebar-none"></div>
-            <div class="content"></div>
+        </aside>
+        <div class="content">
+            <div class="content-nav">
+                <span class="nav-foryou font">
+                        For you
+                        <span class="nav-beta">Beta</span>
+                </span>
+                <span class="nav-following font">
+                    Following
+                </span>
+                <span class="nav-none"></span>
+                <span class="nav-feedback font">
+                    Send Feedback
+                </span>
+                <span class="nav-filter font">
+                    Filter
+                    <select class="nav-sel"></select>
+                </span>
+            </div>
+            <div class="info">
+                
+            </div>
+            <div class="footer">
+                <div class="footer-info">
+                    <span class="logo">
+                        <i class="fa-brands fa-github"></i>    
+                    </span>
+                    <span class="copy">&copy; 2023 Github, Inc,</span>
+                </div>
+                    <span class="footer-none"></span>
+                <ul>
+                    <li>Blog</li>
+                    <li>About</li>
+                    <li>Shop</li>
+                    <li>Contact GitHub</li>
+                    <li>Pricing</li>
+                </ul>
+                <ul>
+                    <li>API</li>
+                    <li>Training</li>
+                    <li>Status</li>
+                    <li>Security</li>
+                </ul>    
+                <ul>
+                    <li>Terms</li>
+                    <li>Privacy</li>
+                    <li>Docs</li>
+                </ul>
+            </div>
         </div>
-    </main>
+        <article class = "side-article">
+            <div class="article-latest">
+                Latest Changes 
+
+            </div>
+        </article>
+    </div>
 </body>
 </html>
