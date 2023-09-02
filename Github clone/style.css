@@ -13,6 +13,7 @@
     color: #7d8590;
     justify-content: flex-start;
     align-items: center;
+    border-bottom: 1px solid #7d8590;
 }
 
 .border{
@@ -40,9 +41,10 @@
 }
 
 .top-dash{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: lighter;
     text-align: center;
+    color: white;
     padding: 5px;
     margin: 5px;
 }
@@ -94,3 +96,80 @@ select, input{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.sidebar{
+    background-color: #0d1117;
+    width: 20%;
+    height: 800px;
+    color: #e6edf3;
+    padding: 30px 30px 10px 10px;
+    border-right: 1px solid #7d8590;
+}
+
+.sidebar-repo{
+    padding: 4px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.repo-top{
+    font-size: 0.9rem;
+}
+
+.repo-none{
+    width: 40%;
+}
+
+.repo-sym{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62.2px;
+    height: 28px;
+    gap: 7px;
+    font-size: 0.8rem;
+    background-color: #238636;
+    border-radius: 5px;
+}
+
+.repo-search{
+    background-color: black;
+    width: 80%;
+    display: flex;
+    height: 15px;
+    text-align: start;
+    align-items: center;
+    padding: 9px 10px;
+    margin: 16px;
+}
+
+.sidebar-recentactivity{
+    border-style: dashed;
+    font-size: 0.7rem;
+    padding: 16px;
+    width: 70%;
+    margin: 4px;
+    margin-top: 12px;
+    color: #7d8590;
+}
+
+.recent-top{
+    font-size: 0.9rem;
+    margin: 4px;
+}
+
+.sidebar-repo-list{
+    width: 80%;
+    font-size: 0.9rem;
+    margin: 4px;
+    height: 80px;
+}
+
+.main{
+    display: flex;
+    justify-content: flex-start;
+}
+
