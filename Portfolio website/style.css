@@ -4,7 +4,7 @@
 }
 
 body{
-    background : rgb(3, 3, 73);
+    background : white;
     color : white;
     font-family: 'Poppins' sans-serif;
 }
@@ -14,7 +14,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     height: 80px;
-    background-color: rgb(35, 35, 75);
+    background-color: #14213d;
 }
 
 nav ul{
@@ -27,6 +27,10 @@ nav ul li{
     margin : 0 23px;
 }
 
-.first{
+.left{
+    font-size: 1.5rem;
+}
 
+.right{
+    font-size : 0.8rem;
 }
