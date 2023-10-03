@@ -20,7 +20,7 @@ function ActiveSlide(n){
 }
 
 // function for next btn
-next.addEventListener('click', function(){
+next.addEventListener('click', ()=>{
   if(i == slides.length - 1){
     i = 0;
     ActiveSlide(i);
@@ -33,7 +33,7 @@ next.addEventListener('click', function(){
 })
 
  // function for prev btn
- prev.addEventListener('click', function(){
+prev.addEventListener('click', ()=>{
   if(i == 0){
     i = slides.length - 1;
     ActiveSlide(i);
